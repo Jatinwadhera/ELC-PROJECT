@@ -39,11 +39,16 @@ The control system works as a closed feedback loop, where the sensors continuous
 
 # APPILCATIONS
 
-1)Personal Transportation 
-2)Robotics Research 
+1)Personal Transportation
+
+2)Robotics Research
+
 3)Assistive Devices
+
 4)Education and Training
+
 5)Logistics and Delivery
+
 6)Entertainment and Robotics Competitions
 
 # WHY PID ?
