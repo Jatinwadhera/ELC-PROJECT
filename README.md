@@ -7,7 +7,7 @@ This repository contains the c documentation, and resources for a self-balancing
 
 The main objective of this project is to create a robot that can remain upright on its own, even when disturbed. By leveraging sensors like a gyroscope and accelerometer, the robot detects its tilt and adjusts its motors accordingly to stay balanced.
 
-# HARD WARE COMPONENTS 
+# HARDWARE COMPONENTS 
 1)  MICROCONTROLLER :  ARDUINO UNO , TEENSY
 2) IMU SENSOR 6050
 3) LIPO BATTERY 5500mah
@@ -23,9 +23,11 @@ The robot uses a combination of sensors, such as a gyroscope and accelerometer, 
 2. Control Algorithm: PID Control
 The Proportional-Integral-Derivative (PID) control algorithm is at the core of the balancing mechanism. It processes the sensor data and determines the necessary adjustments to the motor speeds.
 
-Proportional (P): Reacts to the current tilt angle and tries to correct it proportionally.
-Integral (I): Accounts for past errors (drift) and corrects any accumulated imbalance over time.
-Derivative (D): Predicts future error based on the current rate of change and applies correction to prevent overshooting.
+Proportional(P): Reacts to the current tilt angle and tries to correct it proportionally.
+
+Integral(I): Accounts for past errors (drift) and corrects any accumulated imbalance over time.
+
+Derivative(D): Predicts future error based on the current rate of change and applies correction to prevent overshooting.
 
 3. Motor Control
 Based on the output from the PID algorithm, the robot adjusts the speed and direction of its motors to counteract any tilt, helping it stay balanced.
@@ -37,7 +39,7 @@ The control system works as a closed feedback loop, where the sensors continuous
 
 # APPILCATIONS
 
-1)Personal Transportation
+1)Personal Transportation 
 2)Robotics Research 
 3)Assistive Devices
 4)Education and Training
